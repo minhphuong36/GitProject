@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    th{
+      color: blue;
+      background-color: aqua;
+    }
+    table{
+      background-color: coral;
+    }
+    td{
+      color: blue;
+    }
+    #id{
+      vertical-align: top;
+    }
+  </style>
+</head>
+<body>
+<form action="">
+  <table>
+    <tr>
+      <th COLSPAN="3">ĐĂNG KÝ HỌC VIÊN</th>
+    </tr>
+    <tr>
+      <td>Họ và tên</td>
+      <td><input type="text"></td>
+    </tr>
+    <tr>
+      <td>Ngày sinh</td>
+      <td><input type="text"></td>
+    </tr>
+    <tr>
+      <td>Giới tính</td>
+      <td><input type="radio">Nam</td>
+      <td><input type="radio">Nữ</td>
+    </tr>
+    <tr>
+      <td id="diachi">Địa chỉ</td>
+      <td>
+        <textarea name="diachi" cols="20" rows="3"></textarea>
+      </td>
+    </tr>
+    <tr>
+      <td>Lớp</td>
+      <td colspan="2">
+        <select name="chon lop">
+
+            <option value="">lớp 1</option>
+            <option value="">lớp 2</option>
+            <option value="">lớp 3</option>
+
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>Email</td>
+      <td colspan="2"><input type="text"></td>
+    </tr>
+    <tr>
+      <td>Điện thoại</td>
+      <td colspan="2"><input type="text"></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><input type="submit" value="Đăng ký"></td>
+      <td><input type="submit" value="Nhập lại"></td>
+    </tr>
+  </table>
+</form>
+
+</body>
+</html>
